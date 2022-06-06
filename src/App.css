@@ -42,7 +42,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 30px;
   margin: auto;
   width: 75%;
   color: grey;
@@ -67,6 +67,14 @@ header h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: left;
+}
+
+header p {
+   text-align: center;
+}
+
 p {
   color: grey;
   text-align: left;
@@ -75,6 +83,8 @@ p {
 .fa {
   color: coral;
   font-size: 50px;
+  padding-right: 10px;
+  padding-top: 20px;
 }
 
 .underline {

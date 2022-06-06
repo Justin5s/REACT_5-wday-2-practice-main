@@ -2,7 +2,7 @@
 function Card (props) {
     return (
         <main className="main">
-            <div className= {`fa {props.icon}`}>
+            <div className= {`fa ${props.icon}`}>
             </div>
             <div>
                 <h3>{props.title}</h3>

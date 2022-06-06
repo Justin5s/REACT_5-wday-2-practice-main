@@ -9,7 +9,6 @@ function App() {
     <div className='App'>
       <SectionTitle />
       <ServicesList data={ServicesData} />
-      <ServiceCard />
     </div>
   );
 }

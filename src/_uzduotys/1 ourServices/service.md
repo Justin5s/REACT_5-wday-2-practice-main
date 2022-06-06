@@ -12,8 +12,8 @@
       - Icon
 
 5. Pasidaryti ikoneles komponenta kad jis veiktu aprasytas kaip paveikslelyje. Paieskoti kaip veikia react componentai su props.children. Jei nepavyks pasidaryti jau zinomu budu.
-6. Pradzoje duomenis galite hardkodinti(tiesiog irasyti jsx)
-7. Duomenis pasiimti is services.json failiuko su fetch. Json failiuka patalpinti i public ir is te fetchinti pagal pavadinima. Public papke yra statine direktorija CRA projekte.
+6. Pradzioje duomenis galite hardkodinti(tiesiog irasyti jsx)
+7. Duomenis pasiimti is services.json failiuko su fetch. Json failiuka patalpinti i public ir is ten fetchinti pagal pavadinima. Public papke yra statine direktorija CRA projekte.
    6.1. uzkrauname ServicesList komponenta paduodami tuscia masyva kaip pradine reiksme
    6.2. useEffect hooke kuris uzsikrauna tik kai koponentas sukuriamas vygdome fetch ir parsiunciame duomenis is services.json.
    6.3. Atnaujiname state su gautais duomenimis ir generuojame ServiceCard komponentus.
